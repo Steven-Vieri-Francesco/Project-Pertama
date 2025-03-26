@@ -14,7 +14,7 @@ int main()
 	cur=ok[0];
 	for(i=1;i<ok.size();i++)
 	{
-		if(cur==ok[i]){
+		if(cur!=ok[i]){
 			ok.erase(i,1);
 			i--;
 			test++;
